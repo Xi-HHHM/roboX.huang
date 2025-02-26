@@ -28,6 +28,18 @@
       height: auto;
       display: block;
     }
+
+    .crop {
+      width: 100px;
+      height: 100px;
+        overflow: hidden;
+    }
+
+    .crop img {
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+    }
   </style>
   <title>Circular Image in Table</title>
 </head>
@@ -66,8 +78,8 @@
             <!-- <td class="circular-image", style="width:20%;max-width:20%">
             <img src="images/xi.jpg" alt="Circular Image"> -->
 <!--            </td>-->
-           <td style="padding:2.5%;width:25%;max-width:40%">
-             <a href="images/xi.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/xi.jpg" class="hoverZoomLink"></a>
+           <td class="circular-image" style="padding:2.5%;width:25%;max-width:40%">
+             <a href="images/xi_yokohama.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/xi_yokohama.jpg" class="hoverZoomLink"></a>
 
           </tr>
         </tbody></table>
