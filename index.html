@@ -57,12 +57,20 @@
               <p>
                 <!-- I am a PhD student in the <a href="https://alr.iar.kit.edu/">Autonomous Learning Robots</a> (ALR) at the Karlsruhe Institute of Technology (KIT), Germany.
                 My research focuses on robotics and machine learning supervised by <a href="https://alr.iar.kit.edu/21_65.php">Gerhard Neumann</a> and <a href="http://rudolf.intuitive-robots.net/">Rudolf Lioutikov</a>. -->
-                Roboticist specializing in enabling robots to operate in human-centered, dynamic, and unstructured environments. 
-                Expertise in developing efficient algorithms for robot motion planning and control, with and without machine learning integration. 
-                Successfully incorporated computer vision techniques, such as NeRFs, to directly map scene understanding to reliable, adaptive motion for complex robotic tasks. 
-                Active contributor to open-source projects, including 
+                Hi, there! I am a final-year PhD student specializing in enabling robots to operate in human-centered, dynamic, and unstructured environments, advised by 
+                <a href="https://www.linkedin.com/in/kroegertorsten/">Torsten Kroeger</a> and
+                <a href="https://scholar.google.com/citations?user=65bIT4oAAAAJ&hl=en">Tamim Asfour</a>.  <br>
+                
+                <br> 
+                During my PhD, I developed efficient machine learning algorithms for robot manipulation, motion planning and control 
+                informed by sensor feedback, computer vision and 3D scene understanding.  
+
+                Due to my part-time activities at <a href="https://www.b-robotized.com/">b>>robotized</a> with 
+                <a href="https://de.linkedin.com/in/denisstogl">Denis Stogl</a>, I am also an active contributor to open-source projects, including 
                 <a href="https://github.com/ros-controls/ros2_control">ros2_control</a> and <a href="https://github.com/ros-industrial/ros2_canopen">ros2_canopen</a>.
-              
+                <br>
+                <br> 
+                Robotic algorithms should work in the real world, not only in the simulations!
               </p>
 
               <p style="text-align:center">
@@ -105,8 +113,7 @@
                   </div>
                   <div style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
                     <!-- <a href="https://openreview.net/pdf?id=IssXUYvVTg"> -->
-                      <papertitle>MoRe-ERL: Learning Motion Residuals using
-                        Episodic Reinforcement Learning
+                      <papertitle>MoRe-ERL: Learning Motion Residuals using Episodic Reinforcement Learning
                       </papertitle></a>
                     <br>
                       <strong>Xi Huang</strong>, Hongyi Zhou, Ge Li, Yucheng Tang, Björn Hein, and Rudolf Liotikov <br>
@@ -120,6 +127,66 @@
                         It can be seamlessly plug in to arbitrary ERL methods and motion generators. 
                         MoRe-ERL identifies trajectory segments requiring modification while preserving critical task-related maneuvers and then generates smooth residual adjustments using B-Spline-based movement primitives to ensure adaptability to dynamic task contexts and smoothness in trajectory refinement. 
                         Experimental results demonstrate that residual learning significantly outperforms training from scratch using ERL methods, achieving superior sample efficiency and task performance. Hardware evaluations further validate the framework, showing that policies trained in simulation can be directly deployed in real-world systems, exhibiting a minimal sim-to-real gap.
+                      </p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <div style="display: flex;">
+                  <div style="flex: 0 0 50%; max-width: 50%;">
+                    <!-- <img src='images/first_page_lined_v5_Anonymous.png' style="width: 100%; max-width: 100%;"> -->
+                    <img src='images/X-IL-architectures.png' style="width: 100%; max-width: 100%;">
+                  </div>
+                  <div style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
+                    <!-- <a href="https://openreview.net/pdf?id=IssXUYvVTg"> -->
+                      <papertitle>
+                        X-IL: Exploring the Design Space of Imitation Learning Policies
+                      </papertitle></a>
+                    <br>
+                      Xiaogang Jia, <strong>Xi Huang</strong>, Atalay Donat, Xuan Zhao, Denis Blessing, Hongyi Zhou, <br>
+                      Han A. Wang, Qian Wang, Rudolf Lioutikov, Gerhard Neumann <br>
+                    <br>
+                      Under Review
+                      <br>
+                      <a href="https://www.arxiv.org/abs/2502.12330">preprint</a>
+                      <p></p>
+                      <p>
+                        Designing modern imitation learning (IL) policies requires making numerous decisions, including the selection of feature encoding, architecture, policy representation, and more. As the field rapidly advances, the range of available options continues to grow, creating a vast and largely unexplored design space for IL policies. In this work, we present X-IL, an accessible open-source framework designed to systematically explore this design space. The framework's modular design enables seamless swapping of policy components, such as backbones (e.g., Transformer, Mamba, xLSTM) and policy optimization techniques (e.g., Score-matching, Flow-matching). This flexibility facilitates comprehensive experimentation and has led to the discovery of novel policy configurations that outperform existing methods on recent robot learning benchmarks. Our experiments demonstrate not only significant performance gains but also provide valuable insights into the strengths and weaknesses of various design choices. This study serves as both a practical reference for practitioners and a foundation for guiding future research in imitation learning.
+                      </p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <div style="display: flex;">
+                  <div style="flex: 0 0 50%; max-width: 50%;">
+                    <!-- <img src='images/first_page_lined_v5_Anonymous.png' style="width: 100%; max-width: 100%;"> -->
+                    <img src='images/point_cloud_architetures.png' style="width: 100%; max-width: 100%;">
+                  </div>
+                  <div style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
+                    <!-- <a href="https://openreview.net/pdf?id=IssXUYvVTg"> -->
+                      <papertitle>
+                        Towards Fusing Point Cloud and Visual Representations for Imitation Learning
+                      </papertitle></a>
+                    <br>
+                    Atalay Donat, Xiaogang Jia, <strong>Xi Huang</strong>, Aleksandar Taranovic, Denis Blessing, Ge Li, <br>
+                    Hongyi Zhou, Hanyi Zhang, Rudolf Lioutikov, Gerhard Neumann <br>
+                    <br>
+                      Under Review
+                      <br>
+                      <a href="https://arxiv.org/abs/2502.12320">preprint</a>
+                      <p></p>
+                      <p>
+                        Learning for manipulation requires using policies that have access to rich sensory information such as point clouds or RGB images. Point clouds efficiently capture geometric structures, making them essential for manipulation tasks in imitation learning. In contrast, RGB images provide rich texture and semantic information that can be crucial for certain tasks. Existing approaches for fusing both modalities assign 2D image features to point clouds. However, such approaches often lose global contextual information from the original images. In this work, we propose FPV-Net, a novel imitation learning method that effectively combines the strengths of both point cloud and RGB modalities. Our method conditions the point-cloud encoder on global and local image tokens using adaptive layer norm conditioning, leveraging the beneficial properties of both modalities. Through extensive experiments on the challenging RoboCasa benchmark, we demonstrate the limitations of relying on either modality alone and show that our method achieves state-of-the-art performance across all tasks.
                       </p>
                   </div>
                 </div>
@@ -299,19 +366,19 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <div style="display: flex;">
                   <div style="flex: 0 0 50%; max-width: 50%;">
-                    <img src='images/ETA_first_page_with_robot.png' style="width: 100%; max-width: 100%;">
+                    <img src='images/ETA-IK.png' style="width: 100%; max-width: 100%;">
                   </div>
                   <div style="flex: 0 0 75%; max-width: 75%; padding-left: 20px;">
                       <papertitle>ETA-IK: Execution-Time-Aware Inverse Kinematics for Dual-Arm Systems
                       </papertitle></a>
                     <br>
                       <strong>Xi Huang</strong>,
-                      Yucheng Tang, Ilshat Mamaev, and Björn Hein
+                      Yucheng Tang, Tao Chen, Ilshat Mamaev, and Björn Hein
                       <br>
                     <br>
                       Under Review
                       <br>
-                      <!-- <a href="https://arxiv.org/pdf/2304.02532">preprint</a> -->
+                      <a href="https://arxiv.org/abs/2411.14381">preprint</a>
                       <p></p>
                       <p>
                         ETA-IK is a novel Execution-Time-Aware Inverse Kinematics method tailored for dual-arm robotic systems.
